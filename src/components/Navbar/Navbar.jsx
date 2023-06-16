@@ -1,19 +1,16 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-import images from '../../constants/images';
+import images from '@/constants/images';
 import './Navbar.css';
 
-
-import React from 'react'
-
-export const Navbar = () => {
+const Navbar = () => {
     return (
-        <nav className='app__Navbar'>
+        <nav className='app__navbar'>
             <div className='app__navbar-logo'>
-                <img src={images.logo} alt="logo" />
+                <img src={images.logo.src} alt="logo" />
             </div>
-            
+
             <ul className='app__navbar-links'>
                 <li className='p__opensans'><a href="#home">Home</a></li>
                 <li className='p__opensans'><a href="#about">About</a></li>
@@ -24,3 +21,5 @@ export const Navbar = () => {
         </nav>
     )
 }
+
+export default Navbar;
