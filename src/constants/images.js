@@ -1,8 +1,9 @@
 import logo from '@/assets/logo.png';
-import mine from '@/assets/mine.png'
+import skull from '@/assets/skull.png'
+
 
 
 export default {
   logo,
-  mine,
+  skull
 };
