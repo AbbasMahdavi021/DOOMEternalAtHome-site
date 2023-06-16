@@ -27,4 +27,19 @@ const assets = [
   }
 ];
 
-export default { technologies, assets };
+const arts = [
+  {
+    img: 'header',
+    title: 'Title 1',
+  },
+  {
+    img: 'title2',
+    title: 'Title 2',
+  },
+  {
+    img: 'logo',
+    title: 'Title 3',
+  },
+];
+
+export default { technologies, assets, arts };

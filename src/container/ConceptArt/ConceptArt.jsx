@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { images } from '@/constants';
+import { Art } from '@/components';
+import { data } from '@/constants';
+
 import './ConceptArt.css';
 
 const ConceptArt = () => (
@@ -10,86 +12,9 @@ const ConceptArt = () => (
     </div>
 
     <div className='concept-art'>
-      <div className='art'>
-        <div className='art-img'>
-          <img src={images.header.src} alt="art_img" />
-        </div>
-        <div className='art-title'>
-          <p>Title</p>
-        </div>
-      </div>
-
-      <div className='art'>
-        <div className='art-img'>
-          <img src={images.header.src} alt="art_img" />
-        </div>
-        <div className='art-title'>
-          <p>Title</p>
-        </div>
-      </div>
-
-      <div className='art'>
-        <div className='art-img'>
-          <img src={images.header.src} alt="art_img" />
-        </div>
-        <div className='art-title'>
-          <p>Title</p>
-        </div>
-      </div>
-
-      <div className='art'>
-        <div className='art-img'>
-          <img src={images.header.src} alt="art_img" />
-        </div>
-        <div className='art-title'>
-          <p>Title</p>
-        </div>
-      </div>
-
-      <div className='art'>
-        <div className='art-img'>
-          <img src={images.header.src} alt="art_img" />
-        </div>
-        <div className='art-title'>
-          <p>Title</p>
-        </div>
-      </div>
-
-      <div className='art'>
-        <div className='art-img'>
-          <img src={images.header.src} alt="art_img" />
-        </div>
-        <div className='art-title'>
-          <p>Title</p>
-        </div>
-      </div>
-
-      <div className='art'>
-        <div className='art-img'>
-          <img src={images.header.src} alt="art_img" />
-        </div>
-        <div className='art-title'>
-          <p>Title</p>
-        </div>
-      </div>
-
-      <div className='art'>
-        <div className='art-img'>
-          <img src={images.header.src} alt="art_img" />
-        </div>
-        <div className='art-title'>
-          <p>Title</p>
-        </div>
-      </div>
-
-      <div className='art'>
-        <div className='art-img'>
-          <img src={images.header.src} alt="art_img" />
-        </div>
-        <div className='art-title'>
-          <p>Title</p>
-        </div>
-      </div>
+      {data.arts.map((art, index) => (
+        <Art key={index} img={art.img} title={art.title} />
+      ))}
 
     </div>
 
