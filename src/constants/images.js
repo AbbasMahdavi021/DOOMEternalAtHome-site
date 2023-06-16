@@ -8,7 +8,19 @@ import baronShoot from '@/assets/baronShoot.png';
 import axe from '@/assets/axe.png';
 import sword from '@/assets/sword.png';
 import sword1 from '@/assets/sword1.png';
+import baronBlender from '@/assets/baron-blender.png';
 
+import bullet2 from '@/assets/weapons/bullet2.png';
+import mine from '@/assets/weapons/mine.png';
+import rocket from '@/assets/weapons/rocket.png';
+
+import bulletDrop from '@/assets/drops/bulletDrop.png';
+import fireRateDrop from '@/assets/drops/fireRateDrop.png';
+import healthDrop from '@/assets/drops/healthDrop.png';
+
+import armor from '@/assets/hud/armor.png';
+import damage from '@/assets/hud/damage.png';
+import fHeart from '@/assets/hud/fHeart.png';
 
 
 import bg from '@/assets/bg.jpg';
@@ -30,5 +42,16 @@ export default {
   axe,
   sword,
   sword1,
-  overlay
+  overlay,
+  baronBlender,
+  rocket,
+  mine,
+  bullet2,
+  armor,
+  damage,
+  fHeart,
+  bulletDrop,
+  fireRateDrop,
+  healthDrop,
+
 };

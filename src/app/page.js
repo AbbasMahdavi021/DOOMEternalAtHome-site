@@ -1,4 +1,4 @@
-import { Header, About } from '@/container';
+import { Header, About, Process } from '@/container';
 import { Navbar } from '@/components';
 import './App.css';
 
@@ -9,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <About />
+      <Process />
     </div>
   )
 }

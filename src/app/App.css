@@ -109,7 +109,7 @@
   text-transform: capitalize;
 }
 
-.baroon__image {
+.axe-image {
   width: 85px;
 }
 
@@ -131,7 +131,7 @@
     line-height: 210px;
   }
 
-  .baroon__image {
+  .axe-image {
     width: 120px;
   }
 }
