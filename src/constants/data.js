@@ -40,6 +40,30 @@ const arts = [
     img: 'logo',
     title: 'Title 3',
   },
+  {
+    img: 'header',
+    title: 'Title 1',
+  },
+  {
+    img: 'title2',
+    title: 'Title 2',
+  },
+  {
+    img: 'sword',
+    title: 'Title 3',
+  },
+  {
+    img: 'header',
+    title: 'Title 1',
+  },
+  {
+    img: 'title2',
+    title: 'Title 2',
+  },
+  {
+    img: 'logo',
+    title: 'Title 3',
+  },
 ];
 
 export default { technologies, assets, arts };
