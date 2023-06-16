@@ -1,7 +1,6 @@
-import Image from 'next/image'
-import styles from './page.module.css';
 import { Header } from '@/container';
 import { Navbar } from '@/components';
+import './App.css';
 
 
 export default function Home() {
