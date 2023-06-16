@@ -2,10 +2,21 @@
   padding: 4rem 6rem;
 }
 
+.flex__row{
+  flex-direction: row;
+}
+
 .flex__center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex__center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .app__bg {

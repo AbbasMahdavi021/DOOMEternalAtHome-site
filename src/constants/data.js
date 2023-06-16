@@ -27,4 +27,4 @@ const assets = [
   }
 ];
 
-export default { technologies, assets, awards };
+export default { technologies, assets };

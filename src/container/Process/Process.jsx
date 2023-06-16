@@ -5,7 +5,7 @@ import { data, images } from '@/constants';
 import './Process.css';
 
 const Process = () => (
-    <div className="app__process flex__center section__padding" id="element">
+    <div className="app__process flex__center section__padding" id="process">
         <div className="app__process-title">
             <SubHeading title="Discover the origins and the enduring mission to RAZE HELL." />
             <h1 className="headtext__cormorant">The Process</h1>
