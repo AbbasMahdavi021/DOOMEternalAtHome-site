@@ -5,6 +5,8 @@ import header from '@/assets/header.jpg';
 import bullet1 from '@/assets/bullet1.png';
 import gun from '@/assets/gun.png';
 import baronShoot from '@/assets/baronShoot.png';
+import axe from '@/assets/axe.png';
+
 
 
 
@@ -29,4 +31,5 @@ export default {
   bullet1,
   gun,
   baronShoot,
+  axe
 };
