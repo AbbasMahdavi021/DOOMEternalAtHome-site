@@ -43,7 +43,7 @@ const Footer = () => (
 
             <div className="app__footer-links_work">
                 <h1 className="app__footer-headtext">Notice</h1>
-                <p className="p__opensans">For entertainment purposes only (DON'T SUE)</p>
+                <p className="p__opensans">For entertainment purposes only (DON&apos;T SUE)</p>
                 <p className="p__opensans">All references to Doom Eternal are used for creative inspiration</p>
                 <p className="p__opensans">No copyright infringement intended</p>
                 <p className="p__opensans">Respect all intellectual property rights</p>
