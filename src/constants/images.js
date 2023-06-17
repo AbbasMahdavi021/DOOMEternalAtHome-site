@@ -9,7 +9,6 @@ import cardDrop from '@/assets/card-drop.jpg';
 import overlay from '@/assets/overlay.png';
 import bg from '@/assets/bg.jpg';
 
-
 import bullet2 from '@/assets/weapons/bullet2.png';
 import mine from '@/assets/weapons/mine.png';
 import rocket from '@/assets/weapons/rocket.png';
@@ -33,6 +32,7 @@ import title1 from '@/assets/concept-art/title1.png';
 import title2 from '@/assets/concept-art/title2.png';
 import view from '@/assets/concept-art/view.jpg';
 
+import logoName from '@/assets/logo-sm.png'
 
 export default {
   logo,
@@ -63,4 +63,5 @@ export default {
   title1,
   title2,
   view,
+  logoName
 };

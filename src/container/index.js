@@ -4,6 +4,8 @@ import Process from './Process/Process';
 import ConceptArt from './ConceptArt/ConceptArt';
 import Video from './Video/Video';
 import Download from './Download/Download';
+import Footer from './Footer/Footer';
+
 
 
 export {
@@ -13,4 +15,5 @@ export {
     ConceptArt,
     Video,
     Download,
+    Footer
 }
