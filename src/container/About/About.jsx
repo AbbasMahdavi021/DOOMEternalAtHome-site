@@ -18,7 +18,9 @@ const About = () => (
                 <p className="p__opensans">
                     TODO
                 </p>
-                <button type="button" className="custom__button">Learn More</button>
+                <a href="#process">
+                    <button type="button" className="custom__button">Learn More</button>
+                </a>
             </div>
 
             <div className="app__aboutus-content_sword flex__center">
@@ -31,7 +33,9 @@ const About = () => (
                 <p className="p__opensans">
                     TODO
                 </p>
-                <button type="button" className="custom__button">Learn More</button>
+                <a href="#process">
+                    <button type="button" className="custom__button">Learn More</button>
+                </a>
             </div>
         </div>
     </div>

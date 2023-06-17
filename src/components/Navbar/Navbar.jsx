@@ -1,7 +1,7 @@
 "use client"
 
-import React, {useState} from 'react';
-import { RxHamburgerMenu , RxEyeClosed } from 'react-icons/rx';
+import React, { useState } from 'react';
+import { RxHamburgerMenu, RxEyeClosed } from 'react-icons/rx';
 
 import images from '@/constants/images';
 import './Navbar.css';
@@ -13,11 +13,12 @@ const Navbar = () => {
     return (
         <nav className='app__navbar'>
             <div className='app__navbar-logo'>
-                <img src={images.logo.src} alt="logo" />
+                <a href="#home">
+                    <img src={images.logo.src} alt="logo" />
+                </a>
             </div>
 
             <ul className='app__navbar-links'>
-                <li className='p__opensans'><a href="#home">Home</a></li>
                 <li className='p__opensans'><a href="#about">About</a></li>
                 <li className='p__opensans'><a href="#process">Process</a></li>
                 <li className='p__opensans'><a href="#art">Concept Art</a></li>

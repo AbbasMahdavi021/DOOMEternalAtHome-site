@@ -97,7 +97,9 @@ const Process = () => (
         </div>
 
         <div style={{ marginTop: 15 }}>
-            <button type="button" className="custom__button">View More</button>
+            <a href="#art">
+                <button type="button" className="custom__button">Explore</button>
+            </a>
         </div>
     </div>
 );

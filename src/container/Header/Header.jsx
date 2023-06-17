@@ -10,12 +10,14 @@ const Header = () => (
             <SubHeading title="The only thing they fear... is you." />
             <h1 className="app__header-h1">DOOM Eternal At Home</h1>
             <p className="p__opensans" style={{ margin: '2rem 0' }}>
-                Hell&apos;s armies have invaded Earth. 
-                Become the Slayer or Baron of Hell in an epic two-player battle 
-                to conquer the enemy and prevent the final destruction of humanity 
+                Hell&apos;s armies have invaded Earth.
+                Become the Slayer or Baron of Hell in an epic two-player battle
+                to conquer the enemy and prevent the final destruction of humanity
                 or ensure its inevitable downfall.
             </p>
-            <button type="button" className="custom__button">Learn More</button>
+            <a href="#about">
+                <button type="button" className="custom__button">Dive In</button>
+            </a>
         </div>
 
         <div className="app__wrapper_img">
