@@ -1,18 +1,29 @@
 .app__video {
     height: 100vh;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
 }
 
 .app__video video {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .app__video-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.65);
+    background: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.app__video:hover .app__video-overlay {
+    background: rgba(0, 0, 0, 0.322);
+    opacity: 1;
 }
 
 .app__video-overlay_circle {
