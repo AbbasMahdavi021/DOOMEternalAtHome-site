@@ -8,7 +8,7 @@ import './ConceptArt.css';
 const ConceptArt = () => (
   <div className="app__bg flex__center2" id="art">
     <div className="app__process-title">
-      <h1 className="headtext__cormorant">Concept "Art"</h1>
+      <h1 className="headtext__cormorant">Concept &quot;Art&quot;</h1>
     </div>
 
     <div className='concept-art'>
