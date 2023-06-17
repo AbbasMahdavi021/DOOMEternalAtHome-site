@@ -1,6 +1,7 @@
 import logo from '@/assets/logo.png';
 import header from '@/assets/header.jpg';
 import baronShoot from '@/assets/baronShoot.png';
+import doomShoot from '@/assets/doomShoot.png';
 import axe from '@/assets/axe.png';
 import sword from '@/assets/sword.png';
 import sword1 from '@/assets/sword1.png';
@@ -38,6 +39,7 @@ export default {
   logo,
   header,
   baronShoot,
+  doomShoot,
   axe,
   sword,
   sword1,
