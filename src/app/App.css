@@ -90,6 +90,12 @@
   cursor: pointer;
 }
 
+.empty__div {
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+}
+
 .p__cormorant {
   font-family: var(--font-base);
   color: var(--color-white);
@@ -130,6 +136,10 @@
   .p__cormorant {
     font-size: 37px;
     line-height: 67px;
+  }
+
+  .empty__div {
+    padding: 2rem;
   }
 
   .p__opensans {
