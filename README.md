@@ -1,6 +1,7 @@
 # DEAH-Site
 
 View Live: https://deah-site.vercel.app/
+
 Welcome to the DEAH-Site, the official website for DOOM-Eternal-At-Home, a 2D Java game inspired by Doom Eternal!
 
 DOOM-Eternal-At-Home Repo: https://github.com/AbbasMahdavi021/DOOM-Eternal-At-Home
@@ -41,4 +42,5 @@ The deah-Site is built using Next.js and CSS, leveraging the latest web technolo
 
 ## Acknowledgements
 For entertainment use only.
+
 Please refer to the Contact section of the site for Copy Rights matters.
