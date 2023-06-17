@@ -29,40 +29,40 @@ const assets = [
 
 const arts = [
   {
-    img: 'header',
-    title: 'Title 1',
+    img: 'end2',
+    title: 'Ethereal Twilight',
   },
   {
     img: 'title2',
-    title: 'Title 2',
+    title: 'Mystic Reflections',
   },
   {
-    img: 'logo',
-    title: 'Title 3',
+    img: 'huds',
+    title: 'Digital Symphony',
   },
   {
-    img: 'header',
-    title: 'Title 1',
+    img: 'background',
+    title: 'Enchanted Landscape',
   },
   {
-    img: 'title2',
-    title: 'Title 2',
+    img: 'title1',
+    title: 'Cosmic Harmony',
   },
   {
-    img: 'sword',
-    title: 'Title 3',
+    img: 'view',
+    title: 'Journey Beyond',
   },
   {
-    img: 'header',
-    title: 'Title 1',
+    img: 'keyframes',
+    title: 'Pixel Illusions',
   },
   {
-    img: 'title2',
-    title: 'Title 2',
+    img: 'end1',
+    title: 'Nocturnal Serenade',
   },
   {
-    img: 'logo',
-    title: 'Title 3',
+    img: 'loot',
+    title: 'Hidden Treasures',
   },
 ];
 

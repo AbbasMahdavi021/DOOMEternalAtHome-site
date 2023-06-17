@@ -16,7 +16,7 @@ const Process = () => (
                 <p className="app__process-element_heading">Technologies</p>
                 <div className="app__process_element_items">
                     {data.technologies.map((technology, index) => (
-                        <Element key={technology.title + index} title={technology.title} price={technology.price} tags={technology.tags} />
+                        <Element key={technology.title + index} title={technology.title} tags={technology.tags} />
                     ))}
                 </div>
             </div>

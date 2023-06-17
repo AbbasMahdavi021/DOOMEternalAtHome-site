@@ -1,14 +1,14 @@
 import logo from '@/assets/logo.png';
-import skull from '@/assets/skull.png';
-import title2 from '@/assets/title2.png';
 import header from '@/assets/header.jpg';
-import bullet1 from '@/assets/bullet1.png';
-import gun from '@/assets/gun.png';
 import baronShoot from '@/assets/baronShoot.png';
 import axe from '@/assets/axe.png';
 import sword from '@/assets/sword.png';
 import sword1 from '@/assets/sword1.png';
 import baronBlender from '@/assets/baron-blender.png';
+import cardDrop from '@/assets/card-drop.jpg';
+import overlay from '@/assets/overlay.png';
+import bg from '@/assets/bg.jpg';
+
 
 import bullet2 from '@/assets/weapons/bullet2.png';
 import mine from '@/assets/weapons/mine.png';
@@ -23,35 +23,44 @@ import damage from '@/assets/hud/damage.png';
 import fHeart from '@/assets/hud/fHeart.png';
 
 
-import bg from '@/assets/bg.jpg';
-import overlay from '@/assets/overlay.png';
-import cardDrop from '@/assets/card-drop.jpg';
-
+import background from '@/assets/concept-art/background.jpg';
+import end1 from '@/assets/concept-art/end1.jpg';
+import end2 from '@/assets/concept-art/end2.jpg';
+import huds from '@/assets/concept-art/huds.jpg';
+import keyframes from '@/assets/concept-art/keyframes.jpg';
+import loot from '@/assets/concept-art/loot.jpg';
+import title1 from '@/assets/concept-art/title1.png';
+import title2 from '@/assets/concept-art/title2.png';
+import view from '@/assets/concept-art/view.jpg';
 
 
 export default {
   logo,
-  skull,
-  title2,
   header,
-  bg,
-  cardDrop,
-  bullet1,
-  gun,
   baronShoot,
   axe,
   sword,
   sword1,
-  overlay,
   baronBlender,
-  rocket,
-  mine,
+  cardDrop,
+  overlay,
+  bg,
   bullet2,
-  armor,
-  damage,
-  fHeart,
+  mine,
+  rocket,
   bulletDrop,
   fireRateDrop,
   healthDrop,
-
+  armor,
+  damage,
+  fHeart,
+  background,
+  end1,
+  end2,
+  huds,
+  keyframes,
+  loot,
+  title1,
+  title2,
+  view,
 };
