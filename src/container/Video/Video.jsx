@@ -10,7 +10,7 @@ const Video = () => {
     const vidRef = useRef();
 
     return (
-        <div className="app__video">
+        <div className="app__video" id="trailer">
             <video
                 ref={vidRef}
                 src={"/gameplay.mp4"}

@@ -1,8 +1,7 @@
 "use client"
 
 import React, {useState} from 'react';
-import { RxEyeOpen } from 'react-icons/rx';
-import { RxEyeClosed } from 'react-icons/rx';
+import { RxHamburgerMenu , RxEyeClosed } from 'react-icons/rx';
 
 import images from '@/constants/images';
 import './Navbar.css';
@@ -22,7 +21,9 @@ const Navbar = () => {
                 <li className='p__opensans'><a href="#about">About</a></li>
                 <li className='p__opensans'><a href="#process">Process</a></li>
                 <li className='p__opensans'><a href="#art">Concept Art</a></li>
+                <li className='p__opensans'><a href="#trailer">Trailer</a></li>
                 <li className='p__opensans'><a href="#download">Download</a></li>
+                <li className='p__opensans'><a href="#contact">Contact</a></li>
             </ul>
 
             <div className="app__navbar-abbas">
@@ -32,7 +33,7 @@ const Navbar = () => {
             </div>
 
             <div className="app__navbar-smallscreen">
-                <RxEyeOpen color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+                <RxHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
                 {toggleMenu && (
                     <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
                         <RxEyeClosed fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
