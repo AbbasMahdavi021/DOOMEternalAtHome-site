@@ -28,7 +28,7 @@ const Navbar = () => {
             </ul>
 
             <div className="app__navbar-abbas">
-                <a href="https://abbasmahdavi.com" className="p__opensans" target='_blank'>By Abbas M</a>
+                <a href="https://abbasmahdavi.vercel.app/" className="p__opensans" target='_blank'>By Abbas</a>
                 <div />
                 <a href="https://github.com/AbbasMahdavi021/DOOM-Eternal-At-Home" className="p__opensans" target='_blank'>Github Repo</a>
             </div>
