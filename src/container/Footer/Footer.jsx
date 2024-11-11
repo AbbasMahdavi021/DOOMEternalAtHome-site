@@ -28,13 +28,13 @@ const Footer = () => (
                 <p className="p__opensans">&quot;The feeling of accomplishment wells up inside of you when you do the seemingly impossible.&quot;</p>
                 <img src={images.axe.src} className="axe-image" style={{ marginTop: 15, transform: 'rotate(-45deg)' }} />
                 <div className="app__footer-links_icons">
-                    <a href="https://abbasmahdavi.com" target="_blank">
+                    <a href="https://abbasmahdavi.vercel.app/" target="_blank">
                         <BsPersonHeart />
                     </a>
                     <a href="https://github.com/AbbasMahdavi021" target="_blank">
                         <BsGithub />
                     </a>
-                    <a href="https://www.linkedin.com/in/abbas-mahdavi-9514b7258" target="_blank">
+                    <a href="https://www.linkedin.com/in/abbasmahdavi/" target="_blank">
                         <BsLinkedin />
                     </a>
                 </div>
